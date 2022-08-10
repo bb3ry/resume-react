@@ -66,8 +66,9 @@ header .banner-text h1 {
 }
 header .banner-text h3 {
    font: 18px/1.9em 'librebaskerville-regular', serif;
-   color: #A8A8A8;
+   color: #FFF;
    margin: 0 auto;
+   background-color:rgba(0,0,0,0.6);
    width: 70%;
    text-shadow: 0px 1px 2px rgba(0, 0, 0, .5);
 }
@@ -325,35 +326,95 @@ ul#nav li.current a { color: #F06000; }
    border-radius: 3px 0 0 3px;
 }
 
-.photoshop {
-  	width: 60%;
-  	-moz-animation: photoshop 2s ease;
-  	-webkit-animation: photoshop 2s ease;
-}
-.illustrator {
-  	width: 55%;
-  	-moz-animation: illustrator 2s ease;
-  	-webkit-animation: illustrator 2s ease;
-}
+
 .wordpress {
-  	width: 50%;
-  	-moz-animation: wordpress 2s ease;
-  	-webkit-animation: wordpress 2s ease;
+   width: 50%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+.shopify {
+   width: 60%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+.apache {
+   width: 70%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+.nginx {
+   width: 60%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+.centos {
+   width: 60%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
+}
+.ubuntu {
+   width: 60%;
+   -moz-animation: wordpress 2s ease;
+   -webkit-animation: wordpress 2s ease;
 }
 .css {
-  	width: 70%;
+  	width: 80%;
   	-moz-animation: css 2s ease;
   	-webkit-animation: css 2s ease;
 }
 .html5 {
-  	width: 80%;
-  	-moz-animation: html5 2s ease;
-  	-webkit-animation: html5 2s ease;
+   width: 90%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+.php {
+   width: 80%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+.bootstrap {
+   width: 70%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+.ajax {
+   width: 60%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+.jquery {
+   width: 70%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
+}
+.javascript {
+   width: 70%;
+   -moz-animation: html5 2s ease;
+   -webkit-animation: html5 2s ease;
 }
 .reactjs {
-  	width: 80%;
-  	-moz-animation: reactjs 2s ease;
-  	-webkit-animation: reactjs 2s ease;
+   width: 40%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}.mysql {
+   width: 50%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}
+.vuejs {
+   width: 40%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}
+.gatsby {
+   width: 30%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
+}
+.graphql {
+   width: 30%;
+   -moz-animation: reactjs 2s ease;
+   -webkit-animation: reactjs 2s ease;
 }
 
 @-moz-keyframes photoshop {
@@ -639,7 +700,7 @@ call-to-action .button {
 /* ------------------------------------------------------------------ */
 
 #testimonials {
-   background: #1F1F1F url(../images/testimonials-bg.jpg) no-repeat center center;
+   background: #1F1F1F url(../images/header.jpg) no-repeat center center;
    background-size: cover !important;
 	-webkit-background-size: cover !important;
    background-attachment: fixed;
@@ -681,6 +742,7 @@ call-to-action .button {
 }
 #testimonials blockquote:before { content: none; }
 #testimonials blockquote p {
+   background-color:rgba(0,0,0,0.6);
    font-family: 'librebaskerville-italic', serif;
    padding: 0;
    font-size: 24px;
